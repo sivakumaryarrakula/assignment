@@ -1,0 +1,164 @@
+1.#arthematic operations
+a=7
+b=9
+c=$a+$b
+d=$a-$b
+e=$a*$b
+f=$a/$b
+echo c=$(($c))
+echo d=$(($d))
+echo e=$(($e))
+echo f=$(($f))
+ 
+2.n=20
+echo a=$((n += 30))
+echo b=$((n -= 30))
+echo c=$((n /= 30))
+echo d=$((n %= 30))
+
+3.++ pre increment operator
+i=39
+echo "pre increment :" $((++I+10))
+
+4.++ post increment operator
+i=39
+echo "this is post increment :" $((i++))
+echo i=$(($i))
+
+5.-- pre decrement
+i=39
+echo "this is pre decrement :" $((--i))
+
+6.--post increment
+i=39
+echo "this is post decrement :" $((i--))
+echo "decrement after pist operator:"$(($i))
+
+ 7.d= "English"
+    e="French"
+if [[$1 = English" && $2 = "French"]]
+then
+    echo "I know English"
+else 
+    exho "I Know French"
+first
+ 
+8.termimate=$1
+if [[ !$terminate ]]
+then
+    echo "program is running"
+else
+    echo "program is terminated"
+fi
+
+9.termimate=$1
+if [[ !$terminate ==1]]
+then
+    echo "program is fun "
+else
+    echo "Else block execute"
+fi
+
+10.n=50
+if [ $n -eq 80 ]]
+then 
+    echo "the number is equal to 80"
+else 
+    echo "the number is not equal to 80"
+fi
+
+11.n=50
+if [ $n -eq 50 ]
+then 
+    echo "the number is not equal to 50"
+fi
+
+12.h=120
+if [$h - eq 123 ]
+then 
+    echo "the number is equal to 120"
+else
+    echo " the number is equal to 120 but not
+123"
+fi
+
+13.h=50
+if [$h -ne 50 ]
+then 
+    echo "the number is equal to 100"
+else
+    echo "the number is not equal to 100"
+fi
+
+14.n=40
+if [$n -ge 50 ]
+then 
+    echo "Number is greater than 50"
+else
+    echo "Number is less than 50"
+fi
+
+15.n=30
+if [$n -lt 40 ]
+then
+    echo $n : " is less then 40 "
+else
+    echo "number is not lesser then 40"
+fi
+
+16.n=50
+if [ $n -le 50 ]
+then 
+    echo "Number is greater"
+fi
+
+17.n=30
+if [ $n -lt 40 ]
+then 
+    echo "Number is not lesser then 40"
+else
+    echo "number is not lesser then 40"
+fi
+
+18.n=50
+if [$n - le 50 ]
+then
+    echo $n : "is lesser than or equal to 50"
+else
+    echo "number is greater"
+fi
+
+19.n=50
+if [[ $n < 50 ]]
+then
+    echo $n: "is lesser then 50"
+else 
+   echo $n: "is equal to"
+fi
+
+20.n=100
+if (( $n > 80))
+then
+    echo "condition works"
+else
+    echo "this is false, else block executes"
+fi
+  
+21.nuber one(){
+       echo " this is first function speaking."
+       number-two
+}
+number_ one
+22.first_fun(){
+   echo "Alpha online....over"
+   second_func
+}
+second_fun(){
+     echo "eta online.... over"
+}
+secon_fun()
+}
+
+    
+
+
